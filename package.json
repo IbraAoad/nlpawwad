@@ -1,0 +1,26 @@
+{
+  "name": "nlp-awwad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.27.0",
+    "webpack-cli": "^4.5.0",
+    "html-webpack-plugin": "^5.3.1",
+    "css-loader": "^5.1.3",
+    "sass-loader": "^11.0.1",
+    "node-sass": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
